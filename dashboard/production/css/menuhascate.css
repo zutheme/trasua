@@ -1,0 +1,72 @@
+.menuhascate .catebyidcatetype {
+	overflow-y: scroll;
+    background: #fff;
+    max-height: 400px;
+}
+.menuhascate .catebyidcatetype ul {
+	list-style: none;
+	padding-left: 5px;
+}
+.menuhascate .catebyidcatetype ul ul{
+	padding-left: 15px;
+}
+.table-menu .menu {
+  position: relative;
+  margin-top: 15px;
+}
+.table-menu .menu ul {
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+.table-menu .menu ul li {
+	padding: 5px 10px 0px 10px;
+	border: 1px solid #ddd;
+	max-width: 350px;
+  min-height: 50px;
+}
+
+.mydiv {
+  /*position: absolute;*/
+  position: relative;
+  z-index: 9;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  width: 300px;
+  background-color: #2196F3;
+  color: #fff;
+  cursor: move;
+  padding: 5px;
+}
+
+.mydivheader {
+  padding: 5px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.droptarget {
+  float: left; 
+  width: 100px; 
+  height: 35px;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+.depth-1 {
+    margin-left: 30px;
+}
+.depth-2 {
+    margin-left: 60px;
+}
+.depth-3 {
+    margin-left: 90px;
+}
+.depth-4 {
+    margin-left: 120px;
+}
+.depth-5 {
+    margin-left: 150px;
+}

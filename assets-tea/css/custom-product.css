@@ -1,0 +1,270 @@
+.c-product-size input[type=radio]:checked+label {
+    background-color: #2B292C;
+    color: #fff;
+}
+.c-product-size label {
+    display: inline-block;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 25px!important;
+    text-align: center!important;
+    border: solid 2px #2B292C;
+    cursor: pointer;
+}
+.c-product-size .item {
+    float:left;
+    padding: 0px 5px;
+}
+.c-product-size input[type=radio] {
+    display: none;
+}
+.c-product-topping .dropdown .dropdown-menu li {
+    border-bottom: 1px dotted silver; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.c-product-topping .drop-topping {
+    color: #5c6873;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+}
+.c-product-topping .dropdown.open .drop-topping {
+    color: #fff;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    background: #2B292C;
+    border: 1px solid #d1d1d1;
+}
+.plus-topping {
+    clear: both;
+    margin-bottom: 2em;
+}
+.plus-topping ul {
+    list-style: none; 
+    padding: 0;
+}
+.plus-topping ul li {
+    float: left;  
+    margin-right: 8px;  
+    padding: 4px;
+    position: relative;
+}
+.plus-topping ul li label {
+    position: relative;
+    padding-left:10px;
+}
+.plus-topping ul li:before {
+    content: "\f067";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: inherit;
+    color: #555;
+    font-size: 13px;
+    padding-right: 0.1em;
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+.c-shop-product-details-2 .c-product-meta > .c-product-short-desc {
+    margin-bottom: 1em;
+    float: left;
+    padding-top: 0px;
+}
+.c-cart-table-row .c-cart-desc .cart-list-topping {
+    list-style: none;
+    padding:0px; 
+}
+.c-cart-table-row .c-cart-desc .cart-list-topping li:before {
+    content: "\f067";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: inherit;
+    color: #5c6873;
+    font-size: 13px;
+    padding-right: 0.1em;
+    position: relative;
+    top: 0px;
+    left: 0;
+}
+.c-cart-table-row .c-cart-desc .cart-list-topping li label {
+    position: relative;
+    padding-left:5px;
+}
+.c-cart-table-row .c-cart-desc .cart-list-topping li .trash .fa{
+    color: #5c6873;
+    line-height: 1em;
+    font-size: 24px;
+}
+/*&#8363;*/
+
+/*cart*/
+.modal-cart-form .modal-cart {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-cart-form .modal-content-cart {
+    text-align: center;
+    background: #fff;
+   /* background-image: url(../images/nen-frm2.jpg);*/
+    margin: 15% auto; 
+    padding: 20px 20px;
+    border: 1px solid #888;
+    max-width: 500px;
+    min-height: 200px;
+   -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;  
+}
+.modal-cart-form .modal-content-cart .btn {
+    font-size:15px; 
+    font-weight: 400;
+    color:#451511;
+    width: 100%;
+}
+.modal-cart-form .modal-content-cart h3 {
+    font-size: 18px;
+    font-weight: 600px;
+    color: #451511;
+    line-height: 1.8em;
+}
+
+/* The Close Button */
+.modal-cart-form .modal-content-cart .close{
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 0;
+    top: -20px;
+    right: -10px;
+    position: relative;
+    background: transparent;
+}
+
+.modal-cart-form .modal-content-cart .close:hover,
+.modal-cart-form .modal-content-cart .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-cart-form .modal-content-cart .loading {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+@media (max-width: 768px){
+    .modal-cart-form .modal-content-cart {
+        text-align: center;
+        background: #fff;
+       /* background-image: url(../images/nen-frm2.jpg);*/
+        margin: 15% auto; 
+        padding: 20px 20px;
+        border: 1px solid #888;
+        max-width: 450px;
+       -webkit-border-radius: 5px; 
+       -moz-border-radius: 5px; 
+       border-radius: 5px;  
+    }
+}
+/*end cart*/
+/*nocart*/
+.modal-nocart-form .modal-nocart {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-nocart-form .modal-content-nocart {
+    text-align: center;
+    background: #fff;
+   /* background-image: url(../images/nen-frm2.jpg);*/
+    margin: 15% auto; 
+    padding: 20px 20px;
+    border: 1px solid #888;
+    max-width: 500px;
+    min-height: 200px;
+   -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;  
+}
+.modal-nocart-form .modal-content-nocart .btn {
+    font-size:15px; 
+    font-weight: 400;
+    color:#451511;
+    width: 100%;
+}
+.modal-nocart-form .modal-content-nocart h3 {
+    font-size: 18px;
+    font-weight: 600px;
+    color: #451511;
+    line-height: 1.8em;
+}
+
+/* The Close Button */
+.modal-nocart-form .modal-content-nocart .close{
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 0;
+    top: -20px;
+    right: -10px;
+    position: relative;
+    background: transparent;
+}
+
+.modal-nocart-form .modal-content-nocart .close:hover,
+.modal-nocart-form .modal-content-nocart .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-nocart-form .modal-content-nocart .loading {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+@media (max-width: 768px){
+    .modal-nocart-form .modal-content-nocart {
+        text-align: center;
+        background: #fff;
+       /* background-image: url(../images/nen-frm2.jpg);*/
+        margin: 15% auto; 
+        padding: 20px 20px;
+        border: 1px solid #888;
+        max-width: 450px;
+       -webkit-border-radius: 5px; 
+       -moz-border-radius: 5px; 
+       border-radius: 5px;  
+    }
+}

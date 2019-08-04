@@ -1,0 +1,63 @@
+.user-profile img {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.cropped-image canvas {
+	width: 100%;
+	height: auto;
+}
+.checkout-complete img.comp-img {
+	max-width: 150px;
+}
+.checkout-complete .cart-list-topping {
+	list-style: none;
+	padding: 0px;
+}
+.checkout-complete .cart-list-topping li:before {
+    content: "\f067";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: inherit;
+    color: #5c6873;
+    font-size: 13px;
+    padding-right: 0.1em;
+    position: relative;
+    top: 0px;
+    left: 0;
+}
+.checkout-complete .c-content-overlay .c-overlay-wrapper {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 3;
+    transition: all 0.2s;
+    background: rgba(0, 0, 0, 0.4);
+}
+span.vnd:after {
+    content: "\20AB";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: inherit;
+    font-size: 13px;
+    padding-right: 0.0em;
+    margin-right: 0.6em;
+    position: relative;
+    top: -3px;
+    right: -3px;
+}
+footer .communication .contact {
+    position: relative;
+    padding-top:15px; 
+}
+.c-layout-footer.c-layout-footer-3 .c-prefooter .c-container {
+    padding: 0 10px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,3 @@
+set @_ordernumber = 444;
+select exp.ordernumber, exp.created_at, case when (exp.iduser > 0) THEN  (select exp.iduser) when (exp.idcustomer > 0) THEN  (select exp.idcustomer) ELSE 0 END as idcus,  case when (exp.idrecipent > 0) THEN  (select exp.idrecipent) when (exp.idcustomer > 0) THEN  (select exp.idcustomer) ELSE (select exp.iduser) END as id_receive, exp.iduser, exp.idcustomer, exp.idrecipent,exp.itemtotal from (select ex.ordernumber, sum((ex.amount*ex.price)) as itemtotal, ex.created_at, ex.idrecipent, ex.idcustomer, ex.iduser 
+from (select * from exp_products where idstore='11') as ex GROUP BY ordernumber) as exp;

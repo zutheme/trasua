@@ -1,0 +1,31 @@
+span.vnd:after {
+    content: "\20AB";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: inherit;
+    font-size: 13px;
+    padding-right: 0.0em;
+    margin-right: 0.6em;
+    position: relative;
+    top: -3px;
+    right: -3px;
+}
+ul.cart-list-topping {
+    list-style: none;
+    padding: 0px;
+}
+.cart-list-topping li:before {
+    content: "\f067";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: inherit;
+    color: #5c6873;
+    font-size: 13px;
+    padding-right: 0.1em;
+    position: relative;
+    top: 0px;
+    left: 0;
+}
+tbody 

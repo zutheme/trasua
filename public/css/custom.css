@@ -1,0 +1,220 @@
+.logo .btn-login{
+
+	background: #0088e0;
+
+}
+
+.logo .logo-img{
+
+	width: 200px;
+
+	height: auto;
+
+}
+
+.like-comm .on{
+
+	color: #EF5350 !important;
+
+}
+
+.like-comm .off{
+
+	color: #ccc !important;
+
+}
+.page-wrapper .card .card-body .table-responsive .btn-edit,
+.page-wrapper .card .card-body .table-responsive .btn-delete {
+	color:#000;
+	background: transparent;
+	padding: 3px 3px;
+	border:none;
+	box-shadow: none;
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+}
+.page-wrapper .card .card-body .table-responsive  td.btn-control {
+	text-align: center;
+}
+
+/* The Modal (background) */
+.modal-cus {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 10%;
+    top: 10%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-cus {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 10%;
+    top: 10%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content-cus {
+	text-align: left;
+    /*background-image: url('http://thammyvienthienkhue.vn/wp-content/uploads/2018/10/nen-frm2.jpg');*/
+    margin: 5% auto;
+    padding: 0px 5px;
+    border: none;
+    width: 40%;
+}
+.modal-content-cus h2 {
+	font-size: 18px;
+	font-weight: 600px;
+	color: #451511;
+}
+.modal-content-cus h3 {
+	font-size: 16px;
+	font-weight: 600px;
+	color: #451511;
+}
+.modal-content-cus p {
+	font-size: 14px;
+	font-weight: 500px;
+	color: #451511;
+}
+.frm-register .register {
+	position: relative;
+	padding: 5px 10px;
+}
+.frm-register .register h2 {
+	text-transform: uppercase;
+}
+.frm-register .register .logo {
+	max-width: 200px;
+	height: auto;
+}
+.frm-register .input-group-cus {
+	width: 100%;
+	padding:3px 5px;
+	text-align: left;
+}
+.frm-register .input-group-cus input.form-control-cus{
+	width: 100%;
+	padding:5px 5px;
+	background:#fff;
+}
+.frm-register .input-group-cus input{
+	width: 100%;
+	padding:5px 5px;
+	background:#fff;
+}
+.btn-action {
+    background: transparent;
+    border: none;
+    color: #000;
+    webkit-box-shadow: none; 
+    box-shadow: none;
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+}
+textarea.form-control-text {
+	width:100%;
+	box-sizing:border-box;
+	direction:ltr;
+	display:block;
+	max-width:100%;
+	line-height:1.5;
+	padding:15px 15px 30px;
+	border-radius:3px;
+	font:13px;
+	background: #fff;
+}
+.frm-register .input-group-cus input.form-control-text{
+	min-height: 100px;
+	width: 100%;
+	padding:5px 5px;
+	background:#fff;
+}
+/* The Close Button */
+.modal-content-cus .btn {
+    position:relative;
+    padding:5px 10px;
+    color:#fff;
+    font-size:14px;
+    font-weight:500;
+    background:#1976D2;
+    border: none;
+}
+.modal-content-cus .close {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 0;
+    top: -10px;
+    right: 0px;
+    position: relative;
+    background: transparent;
+}
+
+.modal-content-cus .close:hover,
+.modal-content-cus .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-content-cus .loading {
+	max-width: 20px;
+	max-height: 20px;
+}
+@media (max-width: 768px) {
+	.modal-content-cus {
+	    background-image: url('http://thammyvienthienkhue.vn/wp-content/uploads/2018/10/nen-frm2.jpg');
+	    margin: 15% auto; /* 15% from the top and centered */
+	    padding: 20px;
+	    border: 1px solid #888;
+	    width: 100%; /* Could be more or less, depending on screen size */
+	}
+}
+
+/*end register*/
+/*mat co hoi*/
+.modal-form .modal-cus {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-form .modal-content-cus {
+    text-align: center;
+    background-image: url('http://thammyvienthienkhue.vn/wp-content/uploads/2018/10/nen-frm2.jpg');
+    margin: 15% auto;
+    padding: 20px 15px;
+    border: 1px solid #888;
+    width: 30%;
+}
+.modal-form .close:hover, .modal-form .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-form .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}

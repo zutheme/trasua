@@ -1,0 +1,13 @@
+.logo .btn-login{
+	background: #0088e0;
+}
+.logo .logo-img{
+	width: 200px;
+	height: auto;
+}
+.like-comm .on{
+	color: #EF5350 !important;
+}
+.like-comm .off{
+	color: #ccc !important;
+}
