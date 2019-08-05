@@ -14,7 +14,7 @@
 
   <meta charset="utf-8">
 
-  <title>Dịch vụ thẩm mỹ viện thiên khuê</title>
+  <title>Trà sữa examle</title>
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -46,23 +46,21 @@
 
   <!-- END GLOBAL MANDATORY STYLES -->
 
-
-
       <!-- BEGIN: BASE PLUGINS  -->
 
-      <link href="{{ asset('assets-tea/assets/plugins/revo-slider/css/settings.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets-tea/assets/plugins/revo-slider/css/settings.css') }}" rel="stylesheet" type="text/css">
 
-      <link href="{{ asset('assets-tea/assets/plugins/revo-slider/css/layers.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets-tea/assets/plugins/revo-slider/css/layers.css') }}" rel="stylesheet" type="text/css">
 
-      <link href="{{ asset('assets-tea/assets/plugins/revo-slider/css/navigation.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets-tea/assets/plugins/revo-slider/css/navigation.css') }}" rel="stylesheet" type="text/css">
 
-      <link href="{{ asset('assets-tea/assets/plugins/cubeportfolio/css/cubeportfolio.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets-tea/assets/plugins/cubeportfolio/css/cubeportfolio.min.css') }}" rel="stylesheet" type="text/css">
 
-      <link href="{{ asset('assets-tea/assets/plugins/owl-carousel/assets/owl.carousel.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets-tea/assets/plugins/owl-carousel/assets/owl.carousel.css') }}" rel="stylesheet" type="text/css">
 
-      <link href="{{ asset('assets-tea/assets/plugins/fancybox/jquery.fancybox.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets-tea/assets/plugins/fancybox/jquery.fancybox.css') }}" rel="stylesheet" type="text/css">
 
-      <link href="{{ asset('assets-tea/assets/plugins/slider-for-bootstrap/css/slider.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets-tea/assets/plugins/slider-for-bootstrap/css/slider.css') }}" rel="stylesheet" type="text/css">
 
         <!-- END: BASE PLUGINS -->
 

@@ -123,11 +123,11 @@
 
                     <a href="{{ url('/') }}" class="c-logo">
 
-                        <img src="{{ asset('assets-tea/images/logo/logo-thienkhue2.png') }}" alt="JANGO" class="c-desktop-logo">
+                        <img src="{{ asset('assets-tea/images/logo/Asset-2@2x.png') }}" alt="JANGO" class="c-desktop-logo">
 
-                        <img src="{{ asset('assets-tea/images/logo/logo-thienkhue2.png') }}" alt="JANGO" class="c-desktop-logo-inverse">
+                        <img src="{{ asset('assets-tea/images/logo/Asset-2@2x.png') }}" alt="JANGO" class="c-desktop-logo-inverse">
 
-                        <img src="{{ asset('assets-tea/images/logo/logo-thienkhue2.png') }}" alt="JANGO" class="c-mobile-logo">
+                        <img src="{{ asset('assets-tea/images/logo/Asset-2@2x.png') }}" alt="JANGO" class="c-mobile-logo">
 
                     </a>
 
@@ -167,7 +167,7 @@
 
                 <form class="c-quick-search" action="#">
 
-                    <input type="text" name="query" placeholder="Gõ từ khóa..." value="" class="form-control" autocomplete="off">
+                    <input type="text" name="query" placeholder="Nhập từ khóa..." value="" class="form-control" autocomplete="off">
 
                     <span class="c-theme-link">&times;</span>
 
